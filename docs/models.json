@@ -1,0 +1,15 @@
+{
+  "whisper": {
+    "repository": "mobiuslabsgmbh/faster-whisper-large-v3-turbo",
+    "revision": "0a363e9161cbc7ed1431c9597a8ceaf0c4f78fcf",
+    "license": "MIT",
+    "sha256": "e76620f83d5f5b69efd3d87e3dc180c1bd21df9fbebacfd4335e5e1efcc018da"
+  },
+  "translation": {
+    "repository": "facebook/m2m100_418M",
+    "revision": "55c2e61bbf05dfb8d7abccdc3fae6fc8512fd636",
+    "license": "MIT",
+    "quantization": "int8",
+    "sha256": "137949450f9cf691f3c92084f14123e82d05ecb23ac3cd688308ce1a95214572"
+  }
+}

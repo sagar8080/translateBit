@@ -1,0 +1,43 @@
+{
+  "synthetic": true,
+  "independent_bilingual_review": false,
+  "offline_model_loading": true,
+  "cases": [
+    {
+      "language": "en",
+      "expected_source": "I have had a headache for three days. I have not taken any medicine.",
+      "synthetic_voice": "Samantha",
+      "source": "I have had a headache for three days. I have not taken any medicine.",
+      "translation": "मैं तीन दिनों से सिरदर्द से पीड़ित हूं. मैंने कोई दवा नहीं ली है.",
+      "asr_ms": 7647,
+      "translation_ms": 658
+    },
+    {
+      "language": "hi",
+      "expected_source": "मुझे तीन दिनों से सिरदर्द है। मैंने कोई दवा नहीं ली है।",
+      "synthetic_voice": "Lekha",
+      "source": "मुझे तीन दिनों से सिर्दर्ध है, मैंने कोई दवा नहीं ली है।",
+      "translation": "I have been sick for three days, I have not taken any medications.",
+      "asr_ms": 6642,
+      "translation_ms": 378
+    },
+    {
+      "language": "en",
+      "expected_source": "Sorry, I said two days, not three days.",
+      "synthetic_voice": "Samantha",
+      "source": "Sorry, I said two days, not three days.",
+      "translation": "मैंने दो दिन कहा, तीन दिन नहीं।",
+      "asr_ms": 6149,
+      "translation_ms": 241
+    },
+    {
+      "language": "hi",
+      "expected_source": "मुझे बुखार नहीं है।",
+      "synthetic_voice": "Lekha",
+      "source": "मुझे बुखार नहीं है.",
+      "translation": "I have no fever.",
+      "asr_ms": 6263,
+      "translation_ms": 219
+    }
+  ]
+}
